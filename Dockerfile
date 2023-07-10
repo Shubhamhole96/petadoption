@@ -2,8 +2,8 @@ FROM openjdk:11-jdk
 
 WORKDIR /app
 
-COPY target/my-application.jar .
+COPY target/petadoption.jar .
 
-EXPOSE 8080
+EXPOSE 8000
 
-CMD ["java", "-jar", "my-application.jar"]
+CMD ["java", "-jar", "petadoption.jar"]
